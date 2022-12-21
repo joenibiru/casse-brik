@@ -161,19 +161,5 @@ function draw() {
     y += dy;
     requestAnimationFrame(draw);
 }
-function play(idPlayer, btn) {
-    var player = document.querySelector('#' + idPlayer);
-    var btn = document.getElementById("audio");
-
-    if (player.paused) {
-        player.play();
-        btn.classList.add('on');
-        btn.classList.remove('off');
-    } else {
-        player.pause();
-        btn.classList.add('off');
-        btn.classList.remove('on');
-    }
-}
 
 draw();
