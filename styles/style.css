@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(/images/ciel-etoile-etoiles-sombre.jpg);
+    width: 100%;
+    height: 100%;
+}
+#myCanvas {
+    border: red solid 5px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background-image: url(/images/istockphoto-481229372-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    background-image: url(/images/111647-google-cache-un-jeu-de-casse-briques-dans-google-images-622x0-1.jpg);
+    text-align: center;
+    color: white;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+h2{
+    background-image: url(/images/111647-google-cache-un-jeu-de-casse-briques-dans-google-images-622x0-1.jpg);
+    text-align: center;
+    color: white;
+    font-family: 'Rubik Mono One', sans-serif;
+}
